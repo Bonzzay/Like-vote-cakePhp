@@ -1,0 +1,10 @@
+Proyecto para cakePhp.
+
+
+pasos de instalaci—n
+
+1.a–adir a la carpeta de plugins del app de cakePhp.
+2.a–adir a vuestra base de datos /config/sql/likes.sql
+3.para llamar a este plugin desde cualquier vista: "<?= $this->requestAction('/likes/view/$_model/$_id', array('return'));?>";
+
+
